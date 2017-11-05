@@ -2,12 +2,11 @@ package com.lightbend.lagom.discovery.consul
 
 import java.net.{InetAddress, URI}
 import java.util.concurrent.ThreadLocalRandom
-import java.util.function.{Function => JFunction}
 import javax.inject.Inject
 
-import com.ecwid.consul.v1.{ConsulClient, QueryParams}
 import com.ecwid.consul.v1.agent.model.NewService
 import com.ecwid.consul.v1.catalog.model.CatalogService
+import com.ecwid.consul.v1.{ConsulClient, QueryParams}
 import com.lightbend.lagom.scaladsl.api.{Descriptor, ServiceLocator}
 
 import scala.collection.JavaConverters._
