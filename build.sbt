@@ -2,7 +2,7 @@ organization := "com.lightbend.lagom"
 
 name := "lagom-service-locator-consul"
 
-version := "1.0.0-SNAPSHOT"
+version := "1.1.0-SNAPSHOT"
 
 scalaVersion := "2.11.8"
 
